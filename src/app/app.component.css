@@ -1,0 +1,19 @@
+.e-schedule .e-appointment-details {
+  padding: 0 !important;
+}
+/* .e-appointment-wrapper {
+  height: 200px;
+  background: #000 !important;
+}
+.e-month-view {
+  height: 200px !important;
+} */
+.e-appointment-details {
+  height: 400px !important;
+}
+.template-wrapper {
+  /* height: 50px !important; */
+  width: 100%;
+  padding: 0 3rem;
+  color: white !important;
+}

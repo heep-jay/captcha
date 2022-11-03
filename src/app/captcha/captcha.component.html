@@ -1,0 +1,15 @@
+<form [formGroup]="aFormGroup">
+  <ngx-recaptcha2
+    #captchaElem
+    [siteKey]="siteKey"
+    (success)="handleSuccess($event)"
+    formControlName="recaptcha"
+  >
+  </ngx-recaptcha2>
+
+  <button *ngIf="toggle" style="margin-top: 3rem">Click me</button>
+</form>
+
+<!-- (reset)="handleReset()"
+(expire)="handleExpire()"
+(load)="handleLoad()" -->
